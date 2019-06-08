@@ -1,3 +1,16 @@
+/* 
+For this application I decided it was best done when creating two separate 'master' functions. 
+
+-- The first being one that's able to handle the events coming from the user when adding shopping items.
+-- The second dealing with the 'checking' and deleting of the created items. 
+--- I did it this way because it was the only way to make the check/delete functions work on items 
+--- that were dynamically created from the other function. 
+
+
+
+
+*/
+
 function shoppingList() {
   const mainList = $(".shopping-list");
   const shoppingForm = "#js-shopping-list-form";
