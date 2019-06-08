@@ -17,6 +17,8 @@ function shoppingList() {
   $(shoppingForm).submit(function() {
     event.preventDefault();
     let submitValue = $("input").val();
+    // I figured there may be a better/faster way to do this, but I thought this was the most straight
+    // forward in this particular context. Which is much better than the "long way around" - with javascript's "document.createElement()"
     const newItem = `<li>
     <span class="shopping-item">${submitValue}</span>
     <div class="shopping-item-controls">
