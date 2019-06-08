@@ -5,10 +5,6 @@ For this application I decided it was best done when creating two separate 'mast
 -- The second dealing with the 'checking' and deleting of the created items. 
 --- I did it this way because it was the only way to make the check/delete functions work on items 
 --- that were dynamically created from the other function. 
-
-
-
-
 */
 
 function shoppingList() {
